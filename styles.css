@@ -1,0 +1,11 @@
+body{margin:0;background:#f7f5ef;font-family:system-ui,-apple-system,sans-serif;color:#222}
+.container{max-width:900px;margin:0 auto;padding:24px}
+.sub{color:#666}
+.filters{display:grid;gap:8px;grid-template-columns:1fr;margin:16px 0}
+input,select{padding:10px;border:1px solid #ccc;border-radius:10px;background:#fff}
+.grid{display:grid;gap:12px}
+.card{background:#fff;border:1px solid #e1e1e1;border-radius:14px;padding:14px}
+.badges{display:flex;gap:8px;margin-bottom:8px}
+.badge{font-size:12px;background:#f1f1f1;border-radius:999px;padding:4px 10px}
+.btn{display:inline-block;margin-top:8px;background:#222;color:#fff;border-radius:999px;padding:8px 12px;text-decoration:none}
+@media(min-width:720px){.filters{grid-template-columns:2fr 1fr 1fr}.grid{grid-template-columns:1fr 1fr}}
